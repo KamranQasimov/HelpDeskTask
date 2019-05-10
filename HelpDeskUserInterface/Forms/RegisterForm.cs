@@ -46,6 +46,7 @@ namespace HelpDeskUserInterface.Forms
             SendEmail(txbx_email.Text);
             new CodeConfirmationForm().ShowDialog();
             MessageBox.Show("User successully added");
+
         }
         
         private void SendEmail(string email)
