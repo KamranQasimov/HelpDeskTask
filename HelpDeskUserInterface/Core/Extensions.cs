@@ -38,6 +38,7 @@ namespace HelpDeskUserInterface.Core
             }
             return _user;
         }
+
     }
     
     

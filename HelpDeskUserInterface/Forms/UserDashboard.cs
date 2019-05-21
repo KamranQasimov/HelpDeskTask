@@ -23,5 +23,11 @@ namespace HelpDeskUserInterface.Forms
             Session.MainForm.Show();
             this.Close();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Add_Ticket_By_User(this).Show();
+            this.Hide();
+        }
     }
 }

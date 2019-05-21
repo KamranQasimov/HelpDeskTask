@@ -59,6 +59,12 @@
     <Compile Include="Core\Extensions.cs" />
     <Compile Include="Core\Identifier.cs" />
     <Compile Include="Core\Session.cs" />
+    <Compile Include="Forms\Add Ticket By User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Add Ticket By User.Designer.cs">
+      <DependentUpon>Add Ticket By User.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,8 @@
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Card.cs" />
+    <Compile Include="Models\TicketStatus.cs" />
+    <Compile Include="Models\Ticket.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="MonthType.cs" />
     <Compile Include="Program.cs" />
@@ -109,6 +117,9 @@
     <Compile Include="UserType.cs" />
     <EmbeddedResource Include="AddCard.resx">
       <DependentUpon>AddCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Add Ticket By User.resx">
+      <DependentUpon>Add Ticket By User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
