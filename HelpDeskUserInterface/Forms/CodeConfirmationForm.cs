@@ -1,4 +1,5 @@
-﻿using HelpDeskUserInterface.Core;
+﻿using HelpDeskUserInterface.AppData;
+using HelpDeskUserInterface.Core;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,8 +24,14 @@ namespace HelpDeskUserInterface.Forms
             string code = txbx_confirm_code.Text;
             if(code == Session.Code)
             {
-                Session.User.IsEmailConfirmed = true;
+                DbContext.Users.Add(Session.Registeringtime);
+                Session.Registeringtime.IsEmailConfirmed = true;
+                MessageBox.Show("User successully added");
+                
+                this.Close();
             }
+            
+            
         }
     }
 }

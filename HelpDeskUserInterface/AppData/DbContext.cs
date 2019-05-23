@@ -17,6 +17,15 @@ namespace HelpDeskUserInterface.AppData
         {
             Users.Add(new User
             {
+                Email = "test@gmail.com",
+                Id = Identifier<User>.GenerateIdentifier(),
+                Name = "Test",
+                Surname = "Testov",
+                Password = "12345",
+                UserType = UserType.User
+            });
+            Users.Add(new User
+            {
                 Email = "kamran@gmail.com",
                 Id = Identifier<User>.GenerateIdentifier(),
                 Name = "Kamran",

@@ -29,5 +29,10 @@ namespace HelpDeskUserInterface.Forms
             new Add_Ticket_By_User(this).Show();
             this.Hide();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new UserTickets().Show();
+        }
     }
 }

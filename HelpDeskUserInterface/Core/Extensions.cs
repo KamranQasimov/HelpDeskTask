@@ -1,6 +1,7 @@
 ﻿using HelpDeskUserInterface.AppData;
 using HelpDeskUserInterface.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,9 @@ namespace HelpDeskUserInterface.Core
             }
             return _card;
         }
+
         
+
         public static User FindUser(this DbSet<User> users,string email,string password)
         {
             User _user = null;
@@ -39,6 +42,21 @@ namespace HelpDeskUserInterface.Core
             return _user;
         }
 
+        public static List<Ticket> FindUsersTicket(this DbSet<Ticket> tickets, User user)
+        {
+           List<Ticket> _ticket = new List<Ticket>();
+            //User user = Session.User;
+            foreach (Ticket ticket in tickets.GetAll())
+            {
+                if (ticket.UserId == user.Id)
+                {
+                    _ticket.Add( ticket);
+                    //break;
+                }
+
+            }
+            return _ticket;
+        }
     }
     
     

@@ -10,6 +10,7 @@ namespace HelpDeskUserInterface.Core
 {
     public static class Session
     {
+        public static User Registeringtime { get; set; }
         public static User User { get; set; }
         public static Form MainForm { get; set; }
         public static string Code { get; internal set; }

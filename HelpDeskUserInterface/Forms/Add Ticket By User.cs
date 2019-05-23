@@ -38,5 +38,11 @@ namespace HelpDeskUserInterface.Forms
             DbContext.Tickets.Add(myTicket);
             MessageBox.Show("You sended ticket successfully");
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            _userDashboard.Show();
+            this.Hide();
+        }
     }
 }

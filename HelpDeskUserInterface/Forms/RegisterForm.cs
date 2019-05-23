@@ -42,10 +42,12 @@ namespace HelpDeskUserInterface.Forms
                 IsEmailConfirmed = false
                 
             };
-            DbContext.Users.Add(user);
+            //DbContext.Users.Add(user);
+            Session.Registeringtime = user;
             SendEmail(txbx_email.Text);
             new CodeConfirmationForm().ShowDialog();
-            MessageBox.Show("User successully added");
+            
+            //MessageBox.Show("User successully added");
 
         }
         
@@ -67,6 +69,10 @@ namespace HelpDeskUserInterface.Forms
             mailMessage.Body = message;
             smtpClient.Send(mailMessage);
         }
+
+
+
+
         //private void SendEmail(string to)
         //{
         //    SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587)
