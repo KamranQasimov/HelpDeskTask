@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HelpDeskUserInterface.AddCard" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABQAACQEABAAAASABAgSAAAAQAAgAAAAAAAAAAA=</HashCode>
+      <FileName>AddCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.CardData" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Program" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.AppData.DbContext" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppData\DbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.AppData.DbSet&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAABAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>AppData\DbSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Core.EnumHelper" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Core.Extensions" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Core.Identifier&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Identifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Core.Session" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Core\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.Add_Ticket_By_User" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAADAAAIIAgAAEABAAAAAAI=</HashCode>
+      <FileName>Forms\Add Ticket By User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.AdminDashboard" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIACAAAAAAAACAAAASAQACAAAgIQAAAQAQAAE=</HashCode>
+      <FileName>Forms\AdminDashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.CardsForm" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAAAAAAIACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\CardsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.CodeConfirmationForm" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQCABAAABCAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\CodeConfirmationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.LoginForm" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAgACAAAIAACAAAA=</HashCode>
+      <FileName>Forms\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.RegisterForm" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABACAAIBEAAAGGAABSAgAAAgAAAAAIAACEAEI=</HashCode>
+      <FileName>Forms\RegisterForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.UserDashboard" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAIAyAAAACAAAkAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Forms\UserDashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.UserForm" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAACAAAACAAAAABAAAAAAAAgAAAA=</HashCode>
+      <FileName>Forms\UserForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Forms.UserTickets" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAAAAAACAAAACAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\UserTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Models.Card" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAAAAAAEAAAAAAAAAQAIAAAAAFAAAAAAA=</HashCode>
+      <FileName>Models\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Models.Ticket" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAggAEAAAAAAAAgAAAAAAAAAAIABAAAAAAA=</HashCode>
+      <FileName>Models\Ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Models.User" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQABAAACAACAAABAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDeskUserInterface.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HelpDeskUserInterface.CardAmountType" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAgAAEAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardAmountType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelpDeskUserInterface.MonthType" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MonthType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelpDeskUserInterface.UserType" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelpDeskUserInterface.Models.TicketStatus" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Models\TicketStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
