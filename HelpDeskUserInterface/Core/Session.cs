@@ -12,6 +12,7 @@ namespace HelpDeskUserInterface.Core
     {
         public static User Registeringtime { get; set; }
         public static User User { get; set; }
+        public static Operator Operator { get; set; }
         public static Form MainForm { get; set; }
         public static string Code { get; internal set; }
 

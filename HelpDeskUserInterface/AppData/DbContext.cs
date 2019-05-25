@@ -13,6 +13,7 @@ namespace HelpDeskUserInterface.AppData
         public static DbSet<Card> Cards { get; set; }
         public static DbSet<User> Users { get; set; }
         public static DbSet<Ticket> Tickets { get; set; }
+        public static DbSet<Operator> Operators { get; set; }
         private static void InitializeDefaultUsers()
         {
             Users.Add(new User
@@ -48,6 +49,7 @@ namespace HelpDeskUserInterface.AppData
             Cards = new DbSet<Card>();
             Users = new DbSet<User>();
             Tickets = new DbSet<Ticket>();
+            Operators = new DbSet<Operator>();
             InitializeDefaultUsers(); 
             
         }

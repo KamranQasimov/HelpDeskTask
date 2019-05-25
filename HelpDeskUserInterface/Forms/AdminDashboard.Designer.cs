@@ -34,6 +34,7 @@
             this.link_user = new System.Windows.Forms.LinkLabel();
             this.link_cards = new System.Windows.Forms.LinkLabel();
             this.btn_Logout = new System.Windows.Forms.Button();
+            this.link_operator = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lbl_greeting
@@ -99,11 +100,23 @@
             this.btn_Logout.UseVisualStyleBackColor = true;
             this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
+            // link_operator
+            // 
+            this.link_operator.AutoSize = true;
+            this.link_operator.Location = new System.Drawing.Point(15, 228);
+            this.link_operator.Name = "link_operator";
+            this.link_operator.Size = new System.Drawing.Size(70, 13);
+            this.link_operator.TabIndex = 6;
+            this.link_operator.TabStop = true;
+            this.link_operator.Text = "Add Operator";
+            this.link_operator.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_operator_LinkClicked);
+            // 
             // AdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 435);
+            this.Controls.Add(this.link_operator);
             this.Controls.Add(this.btn_Logout);
             this.Controls.Add(this.link_cards);
             this.Controls.Add(this.link_user);
@@ -126,5 +139,6 @@
         private System.Windows.Forms.LinkLabel link_user;
         private System.Windows.Forms.LinkLabel link_cards;
         private System.Windows.Forms.Button btn_Logout;
+        private System.Windows.Forms.LinkLabel link_operator;
     }
 }

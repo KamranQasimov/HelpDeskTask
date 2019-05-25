@@ -48,5 +48,10 @@ namespace HelpDeskUserInterface.Forms
             Session.MainForm.Show();
             this.Close();
         }
+
+        private void link_operator_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new OperatorRegister().ShowDialog();
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace HelpDeskUserInterface
     
     {
         Admin =3,
+        Operator =2,
         User = 1
     }
 }
